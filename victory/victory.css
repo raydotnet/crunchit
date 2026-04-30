@@ -10,6 +10,32 @@ body {
     
 }
 
+
+.yourhead {
+background-image: url(../gregfaces/yourface.png);
+background-size: 90px 105px;
+width: 90px;
+height: 105px;
+background-position: center;
+
+}
+
+.introbody {
+background-color: white;
+border: 5px solid black;
+border-top: none;
+width: 500px;
+height: 120px;
+font-family: "jgs7";
+font-size: 18px;
+padding: 10px 20px;
+text-align: justify;
+display: flex;
+gap: 16px;
+justify-content: center;
+align-items: center;
+}
+
 @font-face {                  
 font-family: 'AnalogueOS';
 src: url(https://humantooth.neocities.org/fonts/AnalogueOS-Regular.woff) format('woff');
